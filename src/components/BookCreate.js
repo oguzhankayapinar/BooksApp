@@ -13,9 +13,7 @@ function BookCreate({ onCreate }) {
         event.preventDefault();
         onCreate(title);
         setTitle('')
-    }
-
-
+    };
 
     return (
         <div className='book-create'>
@@ -27,6 +25,5 @@ function BookCreate({ onCreate }) {
             </form>
         </div>
     )
-}
-
+};
 export default BookCreate;
